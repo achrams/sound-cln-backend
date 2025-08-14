@@ -1,10 +1,16 @@
 {
-  "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  },
   "name": "json-server-backend",
   "version": "1.0.0",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
   }
 }

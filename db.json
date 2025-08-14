@@ -1,0 +1,98 @@
+{
+  "user": {
+    "name": "atika",
+    "email": "ladaradeveloper@gmail.com",
+    "role": "admin",
+    "password": "admin"
+  },
+  "items": [
+    {
+      "name": "Sound System Pioneer",
+      "qty": 6,
+      "price": 1250000,
+      "id": "5a3454db-9cb5-459c-a897-c690489b2f5c"
+    },
+    {
+      "name": "Microphone Shure",
+      "qty": 10,
+      "price": 350000,
+      "id": "89d0b44d-1955-40aa-a150-29d4da7ca5ae"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Paket Hemat 1",
+      "description": "Sound System 2\nMic 1",
+      "price": 2000000,
+      "id": "1c7e5a77-125c-4f47-b01e-9bab5e5d9b8a"
+    },
+    {
+      "name": "Paket Mahal 1",
+      "description": "Mic 4\nSound System 5\nLighting Full",
+      "price": 12000000,
+      "id": "dc87b8e7-6e99-4926-b440-5410ad3fd2ae"
+    }
+  ],
+  "income": [
+    {
+      "name": "Sukron",
+      "phone": "0811990808",
+      "itemList": "Paket Hemat 1",
+      "description": "Microphone Shure",
+      "type": "Package",
+      "price": 2700000,
+      "qty": 2,
+      "total": 5400000,
+      "createdAt": "2025-08-14T08:13:33.250Z",
+      "updatedAt": "2025-08-14T08:13:33.250Z",
+      "id": "9fd0d3e3-c23e-4eee-a103-8fc7a2465957"
+    }
+  ],
+  "expenses": [
+    {
+      "name": "Atika",
+      "phone": "08123456789",
+      "itemList": "Begitu",
+      "type": "Item",
+      "status": "Lunas",
+      "qty": 5,
+      "total": 25000,
+      "description": "Pengeluaran untuk keperluan operasional",
+      "price": 50000,
+      "id": "1234",
+      "createdAt": "2025-08-01T12:00:00Z",
+      "updatedAt": "2025-08-01T12:00:00Z"
+    }
+  ],
+  "invoices": [
+    {
+      "name": "Sukron",
+      "address": "Jl. Jengki",
+      "phone": "0811990808",
+      "email": "sukron@gmail.com",
+      "package": {
+        "name": "Paket Hemat 1",
+        "description": "Sound System 2\nMic 1",
+        "price": 2000000,
+        "id": "1c7e5a77-125c-4f47-b01e-9bab5e5d9b8a"
+      },
+      "items": [
+        {
+          "name": "Microphone Shure",
+          "qty": 2,
+          "price": 350000,
+          "id": "89d0b44d-1955-40aa-a150-29d4da7ca5ae"
+        }
+      ],
+      "rentalDate": "2025-08-14",
+      "returnDate": "2025-08-16",
+      "rentalDuration": 2,
+      "paymentMethod": "Cash",
+      "paymentStatus": "Lunas",
+      "totalPrice": 5400000,
+      "createdAt": "2025-08-14T08:13:33.225Z",
+      "updatedAt": "2025-08-14T08:13:33.225Z",
+      "id": "fea4e11e-da53-4304-8780-59d553957353"
+    }
+  ]
+}
