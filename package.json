@@ -5,6 +5,6 @@
   "name": "json-server-backend",
   "version": "1.0.0",
   "scripts": {
-    "start": "json-server --watch server.json --port 40001"
+    "start": "node server.js"
   }
 }
